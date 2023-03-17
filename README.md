@@ -1,11 +1,26 @@
-# Belajar Prisma
+# Belajar Prisma di Next.js 13
 
-Tujuan :
+## Link yang berhubungan dengan tutorial :
+
+- https://www.prisma.io/
+- https://www.prisma.io/docs/concepts/components/prisma-client
+- https://www.prisma.io/docs/concepts/database-connectors/sql-server#connection-details
+- https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props
+
+
+## Tujuan Tutorial :
 
 -   Dapat Mengkonfigurasi Prisma
--   Dapat melakukan CRUD menggunakan Prisma dan MUI
+-   Dapat melakukan CRUD menggunakan Prisma dan MUI.5 pada Next.js 13
 
-Skenario :
+```
+Catatan :
+Sebelum memulai langkah-langkah berikut, silahkan gunakan template Next.js13 dan MUI.5 yang ada di :
+
+https://github.com/chandra-mulyana/starter-nextjs13-mui5
+```
+
+## Skenario :
 Aplikasi akan mengakses DB MsSQL di lokal
 
 ## Setting Database MS SQL
@@ -285,16 +300,6 @@ export async function getServerSideProps() {
 }
 ```
 
-sehingga nanti output nya adalah sebegai berikut :
+sehingga nanti output nya adalah sebagai berikut :
 
-```
-Belajar Prisma
-ID User 1 - User ID : chandra - Nama : Chandra Mulyana
-ID User 2 - User ID : mulyana - Nama : Mulyana Chandra
-```
-
-## Link untuk Prisma
-
-Untuk Explore cara penggunaan, biasanya saya buka halaman berikut:
-
-https://www.prisma.io/docs/concepts/components/prisma-client
+![image](https://user-images.githubusercontent.com/16368613/225779402-30a19219-43bf-4e78-be8f-fa40bd45e089.png)
